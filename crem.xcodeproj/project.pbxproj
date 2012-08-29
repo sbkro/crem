@@ -1,0 +1,237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7248CD6015EE57CA00A9310C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7248CD5F15EE57CA00A9310C /* Foundation.framework */; };
+		7248CD6315EE57CA00A9310C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7248CD6215EE57CA00A9310C /* main.m */; };
+		7248CD6715EE57CA00A9310C /* crem.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7248CD6615EE57CA00A9310C /* crem.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7248CD5915EE57CA00A9310C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				7248CD6715EE57CA00A9310C /* crem.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7248CD5B15EE57CA00A9310C /* crem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = crem; sourceTree = BUILT_PRODUCTS_DIR; };
+		7248CD5F15EE57CA00A9310C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7248CD6215EE57CA00A9310C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7248CD6515EE57CA00A9310C /* crem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "crem-Prefix.pch"; sourceTree = "<group>"; };
+		7248CD6615EE57CA00A9310C /* crem.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = crem.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7248CD5815EE57CA00A9310C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7248CD6015EE57CA00A9310C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7248CD5015EE57CA00A9310C = {
+			isa = PBXGroup;
+			children = (
+				7248CD6115EE57CA00A9310C /* crem */,
+				7248CD5E15EE57CA00A9310C /* Frameworks */,
+				7248CD5C15EE57CA00A9310C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7248CD5C15EE57CA00A9310C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7248CD5B15EE57CA00A9310C /* crem */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7248CD5E15EE57CA00A9310C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7248CD5F15EE57CA00A9310C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7248CD6115EE57CA00A9310C /* crem */ = {
+			isa = PBXGroup;
+			children = (
+				7248CD6215EE57CA00A9310C /* main.m */,
+				7248CD6615EE57CA00A9310C /* crem.1 */,
+				7248CD6415EE57CA00A9310C /* Supporting Files */,
+			);
+			path = crem;
+			sourceTree = "<group>";
+		};
+		7248CD6415EE57CA00A9310C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7248CD6515EE57CA00A9310C /* crem-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7248CD5A15EE57CA00A9310C /* crem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7248CD6A15EE57CA00A9310C /* Build configuration list for PBXNativeTarget "crem" */;
+			buildPhases = (
+				7248CD5715EE57CA00A9310C /* Sources */,
+				7248CD5815EE57CA00A9310C /* Frameworks */,
+				7248CD5915EE57CA00A9310C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = crem;
+			productName = crem;
+			productReference = 7248CD5B15EE57CA00A9310C /* crem */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7248CD5215EE57CA00A9310C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = sbkro;
+			};
+			buildConfigurationList = 7248CD5515EE57CA00A9310C /* Build configuration list for PBXProject "crem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7248CD5015EE57CA00A9310C;
+			productRefGroup = 7248CD5C15EE57CA00A9310C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7248CD5A15EE57CA00A9310C /* crem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7248CD5715EE57CA00A9310C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7248CD6315EE57CA00A9310C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7248CD6815EE57CA00A9310C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7248CD6915EE57CA00A9310C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7248CD6B15EE57CA00A9310C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "crem/crem-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7248CD6C15EE57CA00A9310C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "crem/crem-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7248CD5515EE57CA00A9310C /* Build configuration list for PBXProject "crem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7248CD6815EE57CA00A9310C /* Debug */,
+				7248CD6915EE57CA00A9310C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7248CD6A15EE57CA00A9310C /* Build configuration list for PBXNativeTarget "crem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7248CD6B15EE57CA00A9310C /* Debug */,
+				7248CD6C15EE57CA00A9310C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7248CD5215EE57CA00A9310C /* Project object */;
+}
