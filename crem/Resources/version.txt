@@ -1,0 +1,2 @@
+crem (Command Line Reminder) version 0.0.1 (2012/09/01)
+Copyright (c) 2012 sbkro-apps. All rights reserved.

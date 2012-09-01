@@ -10,6 +10,22 @@
 		7248CD6015EE57CA00A9310C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7248CD5F15EE57CA00A9310C /* Foundation.framework */; };
 		7248CD6315EE57CA00A9310C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7248CD6215EE57CA00A9310C /* main.m */; };
 		7248CD6715EE57CA00A9310C /* crem.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7248CD6615EE57CA00A9310C /* crem.1 */; };
+		72747AE515F1D640007D7F65 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72747AE315F1D637007D7F65 /* EventKit.framework */; };
+		72747B1815F1DB63007D7F65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72747B1615F1DB63007D7F65 /* InfoPlist.strings */; };
+		72747B1B15F1DB63007D7F65 /* cremTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 72747B1A15F1DB63007D7F65 /* cremTest.m */; };
+		72747B2215F1DBBF007D7F65 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72747B2015F1DBAF007D7F65 /* SenTestingKit.framework */; };
+		72747B2515F1DBD4007D7F65 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72747B2315F1DBC8007D7F65 /* Cocoa.framework */; };
+		72747B2815F1DEE1007D7F65 /* CRExecCommandFactoryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 72747B2715F1DEE1007D7F65 /* CRExecCommandFactoryTest.m */; };
+		72747B2B15F1EA79007D7F65 /* CRExecCommandFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 72747B2A15F1EA79007D7F65 /* CRExecCommandFactory.m */; };
+		72747B3615F1F1DA007D7F65 /* CRExecVersionCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 72747B3515F1F1DA007D7F65 /* CRExecVersionCommand.m */; };
+		72747B3915F1F1F9007D7F65 /* CRExecHelpCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 72747B3815F1F1F9007D7F65 /* CRExecHelpCommand.m */; };
+		72747B3A15F1F3BE007D7F65 /* CRExecCommand.h in Sources */ = {isa = PBXBuildFile; fileRef = 72747B2C15F1EBB0007D7F65 /* CRExecCommand.h */; };
+		72747B3B15F1F3BE007D7F65 /* CRExecCommandFactory.h in Sources */ = {isa = PBXBuildFile; fileRef = 72747B2915F1EA79007D7F65 /* CRExecCommandFactory.h */; };
+		72747B3C15F1F3BE007D7F65 /* CRExecCommandFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 72747B2A15F1EA79007D7F65 /* CRExecCommandFactory.m */; };
+		72747B3D15F1F3BE007D7F65 /* CRExecHelpCommand.h in Sources */ = {isa = PBXBuildFile; fileRef = 72747B3715F1F1F9007D7F65 /* CRExecHelpCommand.h */; };
+		72747B3E15F1F3BE007D7F65 /* CRExecHelpCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 72747B3815F1F1F9007D7F65 /* CRExecHelpCommand.m */; };
+		72747B3F15F1F3BE007D7F65 /* CRExecVersionCommand.h in Sources */ = {isa = PBXBuildFile; fileRef = 72747B3415F1F1DA007D7F65 /* CRExecVersionCommand.h */; };
+		72747B4015F1F3BE007D7F65 /* CRExecVersionCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 72747B3515F1F1DA007D7F65 /* CRExecVersionCommand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +47,29 @@
 		7248CD6215EE57CA00A9310C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7248CD6515EE57CA00A9310C /* crem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "crem-Prefix.pch"; sourceTree = "<group>"; };
 		7248CD6615EE57CA00A9310C /* crem.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = crem.1; sourceTree = "<group>"; };
+		72747AE115F1B87E007D7F65 /* help.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = help.txt; path = Resources/help.txt; sourceTree = "<group>"; };
+		72747AE215F1B890007D7F65 /* version.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = version.txt; path = Resources/version.txt; sourceTree = "<group>"; };
+		72747AE315F1D637007D7F65 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		72747B0A15F1DB63007D7F65 /* cremTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cremTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72747B1015F1DB63007D7F65 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		72747B1115F1DB63007D7F65 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		72747B1215F1DB63007D7F65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		72747B1515F1DB63007D7F65 /* cremTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cremTest-Info.plist"; sourceTree = "<group>"; };
+		72747B1715F1DB63007D7F65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		72747B1915F1DB63007D7F65 /* cremTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cremTest.h; sourceTree = "<group>"; };
+		72747B1A15F1DB63007D7F65 /* cremTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cremTest.m; sourceTree = "<group>"; };
+		72747B1C15F1DB63007D7F65 /* cremTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cremTest-Prefix.pch"; sourceTree = "<group>"; };
+		72747B2015F1DBAF007D7F65 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		72747B2315F1DBC8007D7F65 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		72747B2615F1DEE1007D7F65 /* CRExecCommandFactoryTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRExecCommandFactoryTest.h; sourceTree = "<group>"; };
+		72747B2715F1DEE1007D7F65 /* CRExecCommandFactoryTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRExecCommandFactoryTest.m; sourceTree = "<group>"; };
+		72747B2915F1EA79007D7F65 /* CRExecCommandFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRExecCommandFactory.h; sourceTree = "<group>"; };
+		72747B2A15F1EA79007D7F65 /* CRExecCommandFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRExecCommandFactory.m; sourceTree = "<group>"; };
+		72747B2C15F1EBB0007D7F65 /* CRExecCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRExecCommand.h; sourceTree = "<group>"; };
+		72747B3415F1F1DA007D7F65 /* CRExecVersionCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRExecVersionCommand.h; sourceTree = "<group>"; };
+		72747B3515F1F1DA007D7F65 /* CRExecVersionCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRExecVersionCommand.m; sourceTree = "<group>"; };
+		72747B3715F1F1F9007D7F65 /* CRExecHelpCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRExecHelpCommand.h; sourceTree = "<group>"; };
+		72747B3815F1F1F9007D7F65 /* CRExecHelpCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRExecHelpCommand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +77,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72747AE515F1D640007D7F65 /* EventKit.framework in Frameworks */,
 				7248CD6015EE57CA00A9310C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72747B0615F1DB63007D7F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72747B2515F1DBD4007D7F65 /* Cocoa.framework in Frameworks */,
+				72747B2215F1DBBF007D7F65 /* SenTestingKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				7248CD6115EE57CA00A9310C /* crem */,
+				72747B1315F1DB63007D7F65 /* cremTest */,
 				7248CD5E15EE57CA00A9310C /* Frameworks */,
 				7248CD5C15EE57CA00A9310C /* Products */,
 			);
@@ -58,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				7248CD5B15EE57CA00A9310C /* crem */,
+				72747B0A15F1DB63007D7F65 /* cremTest.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,7 +116,11 @@
 		7248CD5E15EE57CA00A9310C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				72747B2315F1DBC8007D7F65 /* Cocoa.framework */,
+				72747B2015F1DBAF007D7F65 /* SenTestingKit.framework */,
+				72747AE315F1D637007D7F65 /* EventKit.framework */,
 				7248CD5F15EE57CA00A9310C /* Foundation.framework */,
+				72747B0F15F1DB63007D7F65 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -73,8 +128,16 @@
 		7248CD6115EE57CA00A9310C /* crem */ = {
 			isa = PBXGroup;
 			children = (
-				7248CD6215EE57CA00A9310C /* main.m */,
 				7248CD6615EE57CA00A9310C /* crem.1 */,
+				72747B2C15F1EBB0007D7F65 /* CRExecCommand.h */,
+				72747B2915F1EA79007D7F65 /* CRExecCommandFactory.h */,
+				72747B2A15F1EA79007D7F65 /* CRExecCommandFactory.m */,
+				72747B3715F1F1F9007D7F65 /* CRExecHelpCommand.h */,
+				72747B3815F1F1F9007D7F65 /* CRExecHelpCommand.m */,
+				72747B3415F1F1DA007D7F65 /* CRExecVersionCommand.h */,
+				72747B3515F1F1DA007D7F65 /* CRExecVersionCommand.m */,
+				7248CD6215EE57CA00A9310C /* main.m */,
+				72747ADF15F1B852007D7F65 /* Resources */,
 				7248CD6415EE57CA00A9310C /* Supporting Files */,
 			);
 			path = crem;
@@ -84,6 +147,47 @@
 			isa = PBXGroup;
 			children = (
 				7248CD6515EE57CA00A9310C /* crem-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72747ADF15F1B852007D7F65 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				72747AE115F1B87E007D7F65 /* help.txt */,
+				72747AE215F1B890007D7F65 /* version.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		72747B0F15F1DB63007D7F65 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72747B1015F1DB63007D7F65 /* AppKit.framework */,
+				72747B1115F1DB63007D7F65 /* CoreData.framework */,
+				72747B1215F1DB63007D7F65 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		72747B1315F1DB63007D7F65 /* cremTest */ = {
+			isa = PBXGroup;
+			children = (
+				72747B1915F1DB63007D7F65 /* cremTest.h */,
+				72747B1A15F1DB63007D7F65 /* cremTest.m */,
+				72747B2615F1DEE1007D7F65 /* CRExecCommandFactoryTest.h */,
+				72747B2715F1DEE1007D7F65 /* CRExecCommandFactoryTest.m */,
+				72747B1415F1DB63007D7F65 /* Supporting Files */,
+			);
+			path = cremTest;
+			sourceTree = "<group>";
+		};
+		72747B1415F1DB63007D7F65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72747B1515F1DB63007D7F65 /* cremTest-Info.plist */,
+				72747B1615F1DB63007D7F65 /* InfoPlist.strings */,
+				72747B1C15F1DB63007D7F65 /* cremTest-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -108,6 +212,24 @@
 			productReference = 7248CD5B15EE57CA00A9310C /* crem */;
 			productType = "com.apple.product-type.tool";
 		};
+		72747B0915F1DB63007D7F65 /* cremTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72747B1D15F1DB63007D7F65 /* Build configuration list for PBXNativeTarget "cremTest" */;
+			buildPhases = (
+				72747B0515F1DB63007D7F65 /* Sources */,
+				72747B0615F1DB63007D7F65 /* Frameworks */,
+				72747B0715F1DB63007D7F65 /* Resources */,
+				72747B0815F1DB63007D7F65 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cremTest;
+			productName = cremTest;
+			productReference = 72747B0A15F1DB63007D7F65 /* cremTest.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -130,9 +252,37 @@
 			projectRoot = "";
 			targets = (
 				7248CD5A15EE57CA00A9310C /* crem */,
+				72747B0915F1DB63007D7F65 /* cremTest */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72747B0715F1DB63007D7F65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72747B1815F1DB63007D7F65 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72747B0815F1DB63007D7F65 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7248CD5715EE57CA00A9310C /* Sources */ = {
@@ -140,10 +290,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				7248CD6315EE57CA00A9310C /* main.m in Sources */,
+				72747B2B15F1EA79007D7F65 /* CRExecCommandFactory.m in Sources */,
+				72747B3615F1F1DA007D7F65 /* CRExecVersionCommand.m in Sources */,
+				72747B3915F1F1F9007D7F65 /* CRExecHelpCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72747B0515F1DB63007D7F65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72747B3A15F1F3BE007D7F65 /* CRExecCommand.h in Sources */,
+				72747B3B15F1F3BE007D7F65 /* CRExecCommandFactory.h in Sources */,
+				72747B3C15F1F3BE007D7F65 /* CRExecCommandFactory.m in Sources */,
+				72747B3D15F1F3BE007D7F65 /* CRExecHelpCommand.h in Sources */,
+				72747B3E15F1F3BE007D7F65 /* CRExecHelpCommand.m in Sources */,
+				72747B3F15F1F3BE007D7F65 /* CRExecVersionCommand.h in Sources */,
+				72747B4015F1F3BE007D7F65 /* CRExecVersionCommand.m in Sources */,
+				72747B1B15F1DB63007D7F65 /* cremTest.m in Sources */,
+				72747B2815F1DEE1007D7F65 /* CRExecCommandFactoryTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		72747B1615F1DB63007D7F65 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72747B1715F1DB63007D7F65 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7248CD6815EE57CA00A9310C /* Debug */ = {
@@ -211,6 +391,32 @@
 			};
 			name = Release;
 		};
+		72747B1E15F1DB63007D7F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cremTest/cremTest-Prefix.pch";
+				INFOPLIST_FILE = "cremTest/cremTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		72747B1F15F1DB63007D7F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cremTest/cremTest-Prefix.pch";
+				INFOPLIST_FILE = "cremTest/cremTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -230,6 +436,16 @@
 				7248CD6C15EE57CA00A9310C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72747B1D15F1DB63007D7F65 /* Build configuration list for PBXNativeTarget "cremTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72747B1E15F1DB63007D7F65 /* Debug */,
+				72747B1F15F1DB63007D7F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

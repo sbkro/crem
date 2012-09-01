@@ -1,0 +1,13 @@
+Usage
+  $ crem [command] [option]
+
+  * command
+      add           Add a new reminder.
+	  
+      * option
+         title:       Title of reminder. (required)
+         cal:         Calendar/Category of reminder. If you ignore this parameter, crem use default calendar.
+
+      version      Display version information.
+	  
+      help          Display usage. (this screen)

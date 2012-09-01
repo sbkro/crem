@@ -3,7 +3,7 @@
 //  crem
 //
 //  Created by sbkro on 2012/08/29.
-//  Copyright (c) 2012年 sbkro. All rights reserved.
+//  Copyright (c) 2012 sbkro-apps. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

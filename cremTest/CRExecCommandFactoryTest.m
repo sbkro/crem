@@ -1,0 +1,57 @@
+//
+//  CRExecCommandFactoryTest.m
+//  crem
+//
+//  Created by sbkro on 2012/09/01.
+//  Copyright (c) 2012 sbkro-apps. All rights reserved.
+//
+
+#import "CRExecCommandFactoryTest.h"
+
+@interface CRExecCommandFactory (Local)
+- (void) _checkCreatedInstanceWithCommand: (NSString *) command instanceName: (NSString *) name;
+- (void) _checkCreatedInstanceWithInvalidCommand: (NSString *) command;
+@end
+
+@implementation CRExecCommandFactoryTest
+
+// Test for sharedFactory.
+- (void) testSharedFactory
+{
+	CRExecCommandFactory * factory1 = [CRExecCommandFactory sharedFactory];
+	CRExecCommandFactory * factory2 = [CRExecCommandFactory sharedFactory];
+	
+	STAssertNotNil(factory1, @"CRExecCommandFactory instance is nil.");
+	STAssertEqualObjects(factory1, factory2, @"CRExecCommandFactory is not singleton.");
+}
+
+// Test for createInstace:command.
+- (void) testCreateInstance
+{
+	// Normal test
+	[self _checkCreatedInstanceWithCommand:@"version" instanceName:@"CRExecVersionCommand"];
+	[self _checkCreatedInstanceWithCommand:@"help"    instanceName:@"CRExecHelpCommand"];
+	
+	// Abnormal test
+	[self _checkCreatedInstanceWithInvalidCommand:@""];
+	[self _checkCreatedInstanceWithInvalidCommand:@"Not exist command"];
+	[self _checkCreatedInstanceWithInvalidCommand:nil];
+}
+
+#pragma mark - Category (Local)
+
+- (void) _checkCreatedInstanceWithCommand: (NSString *) command instanceName: (NSString *) name
+{
+	id obj = [[CRExecCommandFactory sharedFactory] createInstance:command];
+	STAssertNotNil(obj, [NSString stringWithFormat:@"Failed to create instance. (command = %@)", command]);
+	NSString * className = NSStringFromClass([obj class]);
+	STAssertTrue([className isEqualToString:name], [NSString stringWithFormat:@"Command object is invalid.(%@,%@)",className, name]);
+}
+
+- (void) _checkCreatedInstanceWithInvalidCommand: (NSString *) command
+{
+	id obj = [[CRExecCommandFactory sharedFactory] createInstance:command];
+	STAssertNil(obj, [NSString stringWithFormat:@"Create to instance. (command = %@)", command]);
+}
+
+@end
