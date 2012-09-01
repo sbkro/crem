@@ -12,7 +12,7 @@
 
 - (void) execute:(int) argc arguments:(const char * []) argv
 {
-	NSLog(@"hoge");
+	NSLog(@"exec help command.");
 }
 
 @end
