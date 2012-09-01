@@ -18,8 +18,8 @@
 //  Define Macro
 // ------------------------------------------------------------------------------------
 #define DEFAULT_COMMAND @"help"
-#define ARG_CMD_NUM     1
-#define ARG_CMD_NAME    2
+#define ARG_CMD_NUM     2
+#define ARG_CMD_NAME    1
 
 
 // ------------------------------------------------------------------------------------

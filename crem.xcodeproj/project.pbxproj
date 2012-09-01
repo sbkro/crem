@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		722089FC15F21E4900171796 /* help.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 722089FA15F21E2E00171796 /* help.txt */; };
 		7248CD6015EE57CA00A9310C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7248CD5F15EE57CA00A9310C /* Foundation.framework */; };
 		7248CD6315EE57CA00A9310C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7248CD6215EE57CA00A9310C /* main.m */; };
 		7248CD6715EE57CA00A9310C /* crem.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7248CD6615EE57CA00A9310C /* crem.1 */; };
@@ -35,6 +36,7 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
+				722089FC15F21E4900171796 /* help.txt in CopyFiles */,
 				7248CD6715EE57CA00A9310C /* crem.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
@@ -42,13 +44,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		722089FA15F21E2E00171796 /* help.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = help.txt; sourceTree = "<group>"; };
+		722089FB15F21E2E00171796 /* version.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = version.txt; sourceTree = "<group>"; };
 		7248CD5B15EE57CA00A9310C /* crem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = crem; sourceTree = BUILT_PRODUCTS_DIR; };
 		7248CD5F15EE57CA00A9310C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7248CD6215EE57CA00A9310C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7248CD6515EE57CA00A9310C /* crem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "crem-Prefix.pch"; sourceTree = "<group>"; };
 		7248CD6615EE57CA00A9310C /* crem.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = crem.1; sourceTree = "<group>"; };
-		72747AE115F1B87E007D7F65 /* help.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = help.txt; path = Resources/help.txt; sourceTree = "<group>"; };
-		72747AE215F1B890007D7F65 /* version.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = version.txt; path = Resources/version.txt; sourceTree = "<group>"; };
 		72747AE315F1D637007D7F65 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
 		72747B0A15F1DB63007D7F65 /* cremTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cremTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72747B1015F1DB63007D7F65 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -154,10 +156,10 @@
 		72747ADF15F1B852007D7F65 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				72747AE115F1B87E007D7F65 /* help.txt */,
-				72747AE215F1B890007D7F65 /* version.txt */,
+				722089FA15F21E2E00171796 /* help.txt */,
+				722089FB15F21E2E00171796 /* version.txt */,
 			);
-			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		72747B0F15F1DB63007D7F65 /* Other Frameworks */ = {
