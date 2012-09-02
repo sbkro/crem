@@ -29,4 +29,7 @@
 // Test for createInstace:command.
 - (void) testCreateInstance;
 
+// Test for _initDictionary.
+- (void) test_initDictionary;
+
 @end

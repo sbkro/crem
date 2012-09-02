@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		722089FC15F21E4900171796 /* help.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 722089FA15F21E2E00171796 /* help.txt */; };
 		7248CD6015EE57CA00A9310C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7248CD5F15EE57CA00A9310C /* Foundation.framework */; };
 		7248CD6315EE57CA00A9310C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7248CD6215EE57CA00A9310C /* main.m */; };
 		7248CD6715EE57CA00A9310C /* crem.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7248CD6615EE57CA00A9310C /* crem.1 */; };
@@ -27,6 +26,11 @@
 		72747B3E15F1F3BE007D7F65 /* CRExecHelpCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 72747B3815F1F1F9007D7F65 /* CRExecHelpCommand.m */; };
 		72747B3F15F1F3BE007D7F65 /* CRExecVersionCommand.h in Sources */ = {isa = PBXBuildFile; fileRef = 72747B3415F1F1DA007D7F65 /* CRExecVersionCommand.h */; };
 		72747B4015F1F3BE007D7F65 /* CRExecVersionCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 72747B3515F1F1DA007D7F65 /* CRExecVersionCommand.m */; };
+		72DCEDD815F2D2E700E4D066 /* CRExecAddReminderCommandTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DCEDD715F2D2E600E4D066 /* CRExecAddReminderCommandTest.m */; };
+		72DCEDDE15F2F1DE00E4D066 /* CRExecAddReminderCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DCEDDD15F2F1DE00E4D066 /* CRExecAddReminderCommand.m */; };
+		72DCEDE115F3672300E4D066 /* CRExecAddReminderCommand.h in Sources */ = {isa = PBXBuildFile; fileRef = 72DCEDDC15F2F1DE00E4D066 /* CRExecAddReminderCommand.h */; };
+		72DCEDE215F3672300E4D066 /* CRExecAddReminderCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DCEDDD15F2F1DE00E4D066 /* CRExecAddReminderCommand.m */; };
+		72DCEDE315F3675200E4D066 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72747AE315F1D637007D7F65 /* EventKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,7 +40,6 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				722089FC15F21E4900171796 /* help.txt in CopyFiles */,
 				7248CD6715EE57CA00A9310C /* crem.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
@@ -44,8 +47,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		722089FA15F21E2E00171796 /* help.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = help.txt; sourceTree = "<group>"; };
-		722089FB15F21E2E00171796 /* version.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = version.txt; sourceTree = "<group>"; };
 		7248CD5B15EE57CA00A9310C /* crem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = crem; sourceTree = BUILT_PRODUCTS_DIR; };
 		7248CD5F15EE57CA00A9310C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7248CD6215EE57CA00A9310C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -53,9 +54,6 @@
 		7248CD6615EE57CA00A9310C /* crem.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = crem.1; sourceTree = "<group>"; };
 		72747AE315F1D637007D7F65 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
 		72747B0A15F1DB63007D7F65 /* cremTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cremTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		72747B1015F1DB63007D7F65 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		72747B1115F1DB63007D7F65 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		72747B1215F1DB63007D7F65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		72747B1515F1DB63007D7F65 /* cremTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cremTest-Info.plist"; sourceTree = "<group>"; };
 		72747B1715F1DB63007D7F65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		72747B1915F1DB63007D7F65 /* cremTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cremTest.h; sourceTree = "<group>"; };
@@ -72,6 +70,10 @@
 		72747B3515F1F1DA007D7F65 /* CRExecVersionCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRExecVersionCommand.m; sourceTree = "<group>"; };
 		72747B3715F1F1F9007D7F65 /* CRExecHelpCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRExecHelpCommand.h; sourceTree = "<group>"; };
 		72747B3815F1F1F9007D7F65 /* CRExecHelpCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRExecHelpCommand.m; sourceTree = "<group>"; };
+		72DCEDD615F2D2E600E4D066 /* CRExecAddReminderCommandTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRExecAddReminderCommandTest.h; sourceTree = "<group>"; };
+		72DCEDD715F2D2E600E4D066 /* CRExecAddReminderCommandTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRExecAddReminderCommandTest.m; sourceTree = "<group>"; };
+		72DCEDDC15F2F1DE00E4D066 /* CRExecAddReminderCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRExecAddReminderCommand.h; sourceTree = "<group>"; };
+		72DCEDDD15F2F1DE00E4D066 /* CRExecAddReminderCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRExecAddReminderCommand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72DCEDE315F3675200E4D066 /* EventKit.framework in Frameworks */,
 				72747B2515F1DBD4007D7F65 /* Cocoa.framework in Frameworks */,
 				72747B2215F1DBBF007D7F65 /* SenTestingKit.framework in Frameworks */,
 			);
@@ -122,7 +125,6 @@
 				72747B2015F1DBAF007D7F65 /* SenTestingKit.framework */,
 				72747AE315F1D637007D7F65 /* EventKit.framework */,
 				7248CD5F15EE57CA00A9310C /* Foundation.framework */,
-				72747B0F15F1DB63007D7F65 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -131,6 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				7248CD6615EE57CA00A9310C /* crem.1 */,
+				72DCEDDC15F2F1DE00E4D066 /* CRExecAddReminderCommand.h */,
+				72DCEDDD15F2F1DE00E4D066 /* CRExecAddReminderCommand.m */,
 				72747B2C15F1EBB0007D7F65 /* CRExecCommand.h */,
 				72747B2915F1EA79007D7F65 /* CRExecCommandFactory.h */,
 				72747B2A15F1EA79007D7F65 /* CRExecCommandFactory.m */,
@@ -139,7 +143,6 @@
 				72747B3415F1F1DA007D7F65 /* CRExecVersionCommand.h */,
 				72747B3515F1F1DA007D7F65 /* CRExecVersionCommand.m */,
 				7248CD6215EE57CA00A9310C /* main.m */,
-				72747ADF15F1B852007D7F65 /* Resources */,
 				7248CD6415EE57CA00A9310C /* Supporting Files */,
 			);
 			path = crem;
@@ -153,25 +156,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		72747ADF15F1B852007D7F65 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				722089FA15F21E2E00171796 /* help.txt */,
-				722089FB15F21E2E00171796 /* version.txt */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		72747B0F15F1DB63007D7F65 /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				72747B1015F1DB63007D7F65 /* AppKit.framework */,
-				72747B1115F1DB63007D7F65 /* CoreData.framework */,
-				72747B1215F1DB63007D7F65 /* Foundation.framework */,
-			);
-			name = "Other Frameworks";
-			sourceTree = "<group>";
-		};
 		72747B1315F1DB63007D7F65 /* cremTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +163,8 @@
 				72747B1A15F1DB63007D7F65 /* cremTest.m */,
 				72747B2615F1DEE1007D7F65 /* CRExecCommandFactoryTest.h */,
 				72747B2715F1DEE1007D7F65 /* CRExecCommandFactoryTest.m */,
+				72DCEDD615F2D2E600E4D066 /* CRExecAddReminderCommandTest.h */,
+				72DCEDD715F2D2E600E4D066 /* CRExecAddReminderCommandTest.m */,
 				72747B1415F1DB63007D7F65 /* Supporting Files */,
 			);
 			path = cremTest;
@@ -295,6 +281,7 @@
 				72747B2B15F1EA79007D7F65 /* CRExecCommandFactory.m in Sources */,
 				72747B3615F1F1DA007D7F65 /* CRExecVersionCommand.m in Sources */,
 				72747B3915F1F1F9007D7F65 /* CRExecHelpCommand.m in Sources */,
+				72DCEDDE15F2F1DE00E4D066 /* CRExecAddReminderCommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +289,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72DCEDE115F3672300E4D066 /* CRExecAddReminderCommand.h in Sources */,
+				72DCEDE215F3672300E4D066 /* CRExecAddReminderCommand.m in Sources */,
 				72747B3A15F1F3BE007D7F65 /* CRExecCommand.h in Sources */,
 				72747B3B15F1F3BE007D7F65 /* CRExecCommandFactory.h in Sources */,
 				72747B3C15F1F3BE007D7F65 /* CRExecCommandFactory.m in Sources */,
@@ -311,6 +300,7 @@
 				72747B4015F1F3BE007D7F65 /* CRExecVersionCommand.m in Sources */,
 				72747B1B15F1DB63007D7F65 /* cremTest.m in Sources */,
 				72747B2815F1DEE1007D7F65 /* CRExecCommandFactoryTest.m in Sources */,
+				72DCEDD815F2D2E700E4D066 /* CRExecAddReminderCommandTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

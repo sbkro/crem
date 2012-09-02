@@ -85,8 +85,9 @@ static CRExecCommandFactory * _sharedInstace;
 - (void) _initDictionary
 {
 	_commandDictionary = [[[NSMutableDictionary alloc] init] retain];
-	[_commandDictionary setObject:@"CRExecHelpCommand"    forKey:@"help"];
-	[_commandDictionary setObject:@"CRExecVersionCommand" forKey:@"version"];
+	[_commandDictionary setObject:@"CRExecHelpCommand"        forKey:@"help"];
+	[_commandDictionary setObject:@"CRExecVersionCommand"     forKey:@"version"];
+	[_commandDictionary setObject:@"CRExecAddReminderCommand" forKey:@"add"];
 }
 
 @end

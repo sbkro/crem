@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Results</key>
+	<array>
+		<dict>
+			<key>Provider Name</key>
+			<string>crem</string>
+			<key>Testable Name</key>
+			<string>cremTest</string>
+			<key>Testable Tests</key>
+			<array>
+				<dict>
+					<key>Test Identifier</key>
+					<string>CRExecAddReminderCommandTest/testExecuteAbnormal</string>
+					<key>Test Name</key>
+					<string>testExecuteAbnormal</string>
+					<key>Test Result</key>
+					<string>Succeeded</string>
+				</dict>
+				<dict>
+					<key>Test Identifier</key>
+					<string>CRExecAddReminderCommandTest/testExecuteNormal</string>
+					<key>Test Name</key>
+					<string>testExecuteNormal</string>
+					<key>Test Result</key>
+					<string>Succeeded</string>
+				</dict>
+				<dict>
+					<key>Test Identifier</key>
+					<string>CRExecCommandFactoryTest/testCreateInstance</string>
+					<key>Test Name</key>
+					<string>testCreateInstance</string>
+					<key>Test Result</key>
+					<string>Succeeded</string>
+				</dict>
+				<dict>
+					<key>Test Identifier</key>
+					<string>CRExecCommandFactoryTest/testSharedFactory</string>
+					<key>Test Name</key>
+					<string>testSharedFactory</string>
+					<key>Test Result</key>
+					<string>Succeeded</string>
+				</dict>
+				<dict>
+					<key>Test Identifier</key>
+					<string>CRExecCommandFactoryTest/test_initDictionary</string>
+					<key>Test Name</key>
+					<string>test_initDictionary</string>
+					<key>Test Result</key>
+					<string>Succeeded</string>
+				</dict>
+				<dict>
+					<key>Test Identifier</key>
+					<string>cremTest/testExample</string>
+					<key>Test Name</key>
+					<string>testExample</string>
+					<key>Test Result</key>
+					<string>Succeeded</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>Version</key>
+	<string>1.0</string>
+</dict>
+</plist>
