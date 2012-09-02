@@ -1,206 +1,0 @@
-Tcrem
-v5
-r1
-cCheck dependencies
-cProcessPCH /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/PrecompiledHeaders/crem-Prefix-gfzruzmtsxnyexevstowcbccocno/crem-Prefix.pch.pth crem/crem-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecVersionCommand.o /Users/sbkro/Documents/03_Github/crem/crem/CRExecVersionCommand.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/main.o /Users/sbkro/Documents/03_Github/crem/crem/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecCommandFactory.o /Users/sbkro/Documents/03_Github/crem/crem/CRExecCommandFactory.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecHelpCommand.o /Users/sbkro/Documents/03_Github/crem/crem/CRExecHelpCommand.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecAddReminderCommand.o /Users/sbkro/Documents/03_Github/crem/crem/CRExecAddReminderCommand.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Products/Debug/crem normal x86_64
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
-c000000005022659800000000000000AA
-t1344431512
-s170
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/EventKit.framework/EventKit
-c00000000501314E00000000000009F84
-t1343427808
-s40836
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000501314E000000000000C3970
-t1343427808
-s801136
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c00000000501314E000000000000015F7
-t1343427808
-s5623
-
-N/Users/sbkro/Documents/03_Github/crem/crem/CRExecAddReminderCommand.m
-c00000000504333EF0000000000000BFE
-t1346581487
-s3070
-
-N/Users/sbkro/Documents/03_Github/crem/crem/CRExecCommandFactory.m
-c0000000050432FFD000000000000090E
-t1346580477
-s2318
-
-N/Users/sbkro/Documents/03_Github/crem/crem/CRExecHelpCommand.m
-c000000005041F04A0000000000000481
-t1346498634
-s1153
-
-N/Users/sbkro/Documents/03_Github/crem/crem/CRExecVersionCommand.m
-c0000000050433834000000000000047B
-t1346582580
-s1147
-
-N/Users/sbkro/Documents/03_Github/crem/crem/crem-Prefix.pch
-c00000000503E204A0000000000000092
-t1346248778
-s146
-i<Foundation/Foundation.h>
-
-N/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/PrecompiledHeaders/crem-Prefix-gfzruzmtsxnyexevstowcbccocno/crem-Prefix.pch.pth
-t2
-s0
-
-N/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecAddReminderCommand.o
-t2
-s0
-
-N/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecCommandFactory.o
-t2
-s0
-
-N/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecHelpCommand.o
-t2
-s0
-
-N/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecVersionCommand.o
-t2
-s0
-
-N/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/crem.LinkFileList
-c00000000504338380000000000000343
-t1346582584
-s835
-
-N/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/main.o
-t2
-s0
-
-N/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Products/Debug/crem
-t2
-s0
-
-N/Users/sbkro/Documents/03_Github/crem/crem/main.m
-c000000005041EF22000000000000063A
-t1346498338
-s1594
-
-CBuild AST from /Users/sbkro/Documents/03_Github/crem/crem/CRExecAddReminderCommand.m
-r0
-
-CBuild AST from /Users/sbkro/Documents/03_Github/crem/crem/CRExecCommandFactory.m
-r0
-
-CBuild AST from /Users/sbkro/Documents/03_Github/crem/crem/CRExecHelpCommand.m
-r0
-
-CBuild AST from /Users/sbkro/Documents/03_Github/crem/crem/CRExecVersionCommand.m
-r0
-
-CBuild AST from /Users/sbkro/Documents/03_Github/crem/crem/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies1f31c2b86ff3b541^e04ad2b86ff3b541^---0#1#0#--18"Check dependencies36"CD40D91C-4EC4-484C-AAC8-919EEE55B105-
-
-CCompileC crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecAddReminderCommand.o /Users/sbkro/Documents/03_Github/crem/crem/CRExecAddReminderCommand.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s368275385.468040
-e368275385.549943
-r1
-xCompileC
-xcrem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecAddReminderCommand.o
-x/Users/sbkro/Documents/03_Github/crem/crem/CRExecAddReminderCommand.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/sbkro/Documents/03_Github/crem/crem/CRExecAddReminderCommand.m35f077b96ff3b541^92ca8cb96ff3b541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/sbkro/Documents/03_Github/crem/crem/CRExecAddReminderCommand.m0000000000000000^3502"CompileC crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecAddReminderCommand.o crem/CRExecAddReminderCommand.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sbkro/Documents/03_Github/crem    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/crem-generated-files.hmap -I/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/crem-own-target-headers.hmap -I/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/crem-all-target-headers.hmap -iquote /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/crem-project-headers.hmap -I/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/DerivedSources/x86_64 -I/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/DerivedSources -F/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Products/Debug -include /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/PrecompiledHeaders/crem-Prefix-gfzruzmtsxnyexevstowcbccocno/crem-Prefix.pch -MMD -MT dependencies -MF /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecAddReminderCommand.d --serialize-diagnostics /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecAddReminderCommand.dia -c /Users/sbkro/Documents/03_Github/crem/crem/CRExecAddReminderCommand.m -o /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecAddReminderCommand.o36"707197AE-6E64-4DFE-A0DA-9BA3EC9CD2D6-
-
-CCompileC crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecCommandFactory.o /Users/sbkro/Documents/03_Github/crem/crem/CRExecCommandFactory.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s368275385.467980
-e368275385.543355
-r1
-xCompileC
-xcrem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecCommandFactory.o
-x/Users/sbkro/Documents/03_Github/crem/crem/CRExecCommandFactory.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/sbkro/Documents/03_Github/crem/crem/CRExecCommandFactory.m74ed77b96ff3b541^1e198bb96ff3b541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/sbkro/Documents/03_Github/crem/crem/CRExecCommandFactory.m0000000000000000^3478"CompileC crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecCommandFactory.o crem/CRExecCommandFactory.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sbkro/Documents/03_Github/crem    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/crem-generated-files.hmap -I/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/crem-own-target-headers.hmap -I/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/crem-all-target-headers.hmap -iquote /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/crem-project-headers.hmap -I/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/DerivedSources/x86_64 -I/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/DerivedSources -F/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Products/Debug -include /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/PrecompiledHeaders/crem-Prefix-gfzruzmtsxnyexevstowcbccocno/crem-Prefix.pch -MMD -MT dependencies -MF /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecCommandFactory.d --serialize-diagnostics /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecCommandFactory.dia -c /Users/sbkro/Documents/03_Github/crem/crem/CRExecCommandFactory.m -o /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecCommandFactory.o36"53B70143-0FB3-4A30-A71B-ABC135CEDA34-
-
-CCompileC crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecHelpCommand.o /Users/sbkro/Documents/03_Github/crem/crem/CRExecHelpCommand.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s368275385.468023
-e368275385.527838
-r1
-xCompileC
-xcrem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecHelpCommand.o
-x/Users/sbkro/Documents/03_Github/crem/crem/CRExecHelpCommand.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/sbkro/Documents/03_Github/crem/crem/CRExecHelpCommand.m0ce677b96ff3b541^1f2c87b96ff3b541^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/sbkro/Documents/03_Github/crem/crem/CRExecHelpCommand.m0000000000000000^3460"CompileC crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecHelpCommand.o crem/CRExecHelpCommand.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sbkro/Documents/03_Github/crem    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/crem-generated-files.hmap -I/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/crem-own-target-headers.hmap -I/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/crem-all-target-headers.hmap -iquote /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/crem-project-headers.hmap -I/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/DerivedSources/x86_64 -I/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/DerivedSources -F/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Products/Debug -include /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/PrecompiledHeaders/crem-Prefix-gfzruzmtsxnyexevstowcbccocno/crem-Prefix.pch -MMD -MT dependencies -MF /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecHelpCommand.d --serialize-diagnostics /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecHelpCommand.dia -c /Users/sbkro/Documents/03_Github/crem/crem/CRExecHelpCommand.m -o /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecHelpCommand.o36"68A3AB20-82CA-436E-B6B7-2DE35C591947-
-
-CCompileC crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecVersionCommand.o /Users/sbkro/Documents/03_Github/crem/crem/CRExecVersionCommand.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s368275385.467952
-e368275385.526723
-r1
-xCompileC
-xcrem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecVersionCommand.o
-x/Users/sbkro/Documents/03_Github/crem/crem/CRExecVersionCommand.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/sbkro/Documents/03_Github/crem/crem/CRExecVersionCommand.mc9e577b96ff3b541^202487b96ff3b541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/sbkro/Documents/03_Github/crem/crem/CRExecVersionCommand.m0000000000000000^3478"CompileC crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecVersionCommand.o crem/CRExecVersionCommand.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sbkro/Documents/03_Github/crem    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/crem-generated-files.hmap -I/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/crem-own-target-headers.hmap -I/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/crem-all-target-headers.hmap -iquote /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/crem-project-headers.hmap -I/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/DerivedSources/x86_64 -I/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/DerivedSources -F/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Products/Debug -include /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/PrecompiledHeaders/crem-Prefix-gfzruzmtsxnyexevstowcbccocno/crem-Prefix.pch -MMD -MT dependencies -MF /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecVersionCommand.d --serialize-diagnostics /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecVersionCommand.dia -c /Users/sbkro/Documents/03_Github/crem/crem/CRExecVersionCommand.m -o /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/CRExecVersionCommand.o36"4838538A-A5C9-4043-B511-157132756CE5-
-
-CCompileC crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/main.o /Users/sbkro/Documents/03_Github/crem/crem/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s368275385.467971
-e368275385.541871
-r1
-xCompileC
-xcrem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/main.o
-x/Users/sbkro/Documents/03_Github/crem/crem/main.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/sbkro/Documents/03_Github/crem/crem/main.m75e577b96ff3b541^edb78ab96ff3b541^---0#0#0#-19%DVTDocumentLocation2@65"file://localhost/Users/sbkro/Documents/03_Github/crem/crem/main.m0000000000000000^3382"CompileC crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/main.o crem/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sbkro/Documents/03_Github/crem    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/crem-generated-files.hmap -I/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/crem-own-target-headers.hmap -I/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/crem-all-target-headers.hmap -iquote /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/crem-project-headers.hmap -I/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/DerivedSources/x86_64 -I/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/DerivedSources -F/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Products/Debug -include /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/PrecompiledHeaders/crem-Prefix-gfzruzmtsxnyexevstowcbccocno/crem-Prefix.pch -MMD -MT dependencies -MF /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/main.dia -c /Users/sbkro/Documents/03_Github/crem/crem/main.m -o /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/main.o36"10FA205F-D619-416C-B183-C1CB6A4A7CA4-
-
-CLd /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Products/Debug/crem normal x86_64
-s368275385.566504
-e368275385.602497
-r1
-xLd
-x/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Products/Debug/crem
-xnormal
-xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Link /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Products/Debug/crema25d91b96ff3b541^bb439ab96ff3b541^---0#0#0#--956"Ld crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Products/Debug/crem normal x86_64    cd /Users/sbkro/Documents/03_Github/crem    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Products/Debug -F/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Products/Debug -filelist /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/Objects-normal/x86_64/crem.LinkFileList -mmacosx-version-min=10.8 -fobjc-link-runtime -framework EventKit -framework Foundation -o /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Products/Debug/crem36"25716B9B-1009-4B96-8672-1B0E86FD882C-
-
-CProcessPCH /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/PrecompiledHeaders/crem-Prefix-gfzruzmtsxnyexevstowcbccocno/crem-Prefix.pch.pth crem/crem-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s368275384.825051
-e368275385.449512
-r1
-xProcessPCH
-x/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/PrecompiledHeaders/crem-Prefix-gfzruzmtsxnyexevstowcbccocno/crem-Prefix.pch.pth
-xcrem/crem-Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile crem/crem-Prefix.pchcf4dd3b86ff3b541^011473b96ff3b541^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/sbkro/Documents/03_Github/crem/crem/crem-Prefix.pch0000000000000000^3315"ProcessPCH crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/PrecompiledHeaders/crem-Prefix-gfzruzmtsxnyexevstowcbccocno/crem-Prefix.pch.pth crem/crem-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sbkro/Documents/03_Github/crem    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/crem-generated-files.hmap -I/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/crem-own-target-headers.hmap -I/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/crem-all-target-headers.hmap -iquote /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/crem-project-headers.hmap -I/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/DerivedSources/x86_64 -I/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/crem.build/Debug/crem.build/DerivedSources -F/Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Products/Debug --serialize-diagnostics /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/PrecompiledHeaders/crem-Prefix-gfzruzmtsxnyexevstowcbccocno/crem-Prefix.pch.dia -c /Users/sbkro/Documents/03_Github/crem/crem/crem-Prefix.pch -o /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/PrecompiledHeaders/crem-Prefix-gfzruzmtsxnyexevstowcbccocno/crem-Prefix.pch.pth -MMD -MT dependencies -MF /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Build/Intermediates/PrecompiledHeaders/crem-Prefix-gfzruzmtsxnyexevstowcbccocno/crem-Prefix.pch.d36"DB554BF7-94FA-40A2-AF74-0BCDC1377F49-
-
-CProcessPCH /Users/sbkro/Documents/03_Github/crem/crem/crem-ddmzdlexdxjcyfbjwkctlxeqkuit/Index/PrecompiledHeaders/crem-Prefix-fpqhjbyyfyokungstxunaipxcosj_ast/crem-Prefix.pch.pth crem/crem-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
